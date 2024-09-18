@@ -23,8 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header ul {
+/* Changed the div command for header into nav */
+nav {
     list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
@@ -32,8 +32,8 @@ header ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header ul li {
+/* Cleaned up the div tags on the lists making sure the code stays the same */
+ul, li {
     display: inline-block;
     margin-left: 25px;
 }
