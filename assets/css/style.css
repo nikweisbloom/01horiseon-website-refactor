@@ -56,10 +56,15 @@ p {
     background-position: center;
 }
 
-/*Joined the left and right floats in one code as they did the same thing */
-.float-left, .float-right {
+/* Fixed the float on Online Reputation Management */
+.float-left {
     float: left;
     margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px
 }
 /* Combined the content class with the main element simplifying the code.*/
 .content {
