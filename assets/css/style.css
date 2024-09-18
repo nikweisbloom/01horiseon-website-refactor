@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Removed the div class off of the headers and lists just focusing on the elements.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Added the figure element for the Top Image to be represented in */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,17 +56,18 @@ p {
     background-position: center;
 }
 
+/*Joined the left and right floats in one code as they did the same thing */
 .float-left, .float-right {
     float: left;
     margin-right: 25px;
 }
-
+/* Combined the content class with the main element simplifying the code.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Combined the benefits class with the aside element simplifying the code.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -78,6 +79,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Combined several classes in one code as they did the same thing. Putting them in sections, removing the divs and simplifying the code */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -112,6 +114,7 @@ p {
     font-size: 36px;
 }
 
+/* Removed the div class off of footer focusing solely on the element.*/
 footer {
     padding: 30px;
     clear: both;
